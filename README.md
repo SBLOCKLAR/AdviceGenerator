@@ -59,3 +59,10 @@ I'd like to make more generators like this.  i would also like to add the functi
 
 - Website - [Sarah Beth Locklar | FE Web Dev](https://www.sarahbethlocklar.com)
 - Frontend Mentor - [@SBLocklar](https://www.frontendmentor.io/profile/yourusername)
+
+
+## Acknowledgements
+
+Lightbulb photo Photo by <a href="https://unsplash.com/@bthjnr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Beth Jnr</a> on <a href="https://unsplash.com/@sblocklar/likes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Yoda photo Photo by <a href="https://unsplash.com/@nadir_syzygy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nadir sYzYgY</a> on <a href="https://unsplash.com/@sblocklar/likes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  

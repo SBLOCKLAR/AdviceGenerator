@@ -1,37 +1,43 @@
 * {
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Philosopher', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: hsl(218, 23%, 16%);
-
+    background-color: #e0eec6;
+    width: 100%;
 }
 
 .adviceCard {
-    background-color: hsl(217, 19%, 24%);
-    /* max-width: 1000px; */
-    color: white;
+    background-color: #243e36;
+    max-width: 1000px;
+    color: #C08552;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 15%;
+    margin-top: 5%;
     border-radius: 10px;
-    padding: 10%;
+    padding-bottom: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
 h1 {
-    color: hsl(150, 100%, 66%);
+    color: #E0EEC6;
     font-size: 12px;
     letter-spacing: .5em;
     max-width: 100%;
 }
 
 p {
-    padding: 10% 5%;
+    padding: 5%;
     max-width: 100%;
     text-align: center;
 }
@@ -41,45 +47,20 @@ p,
     font-size: 28px;
 }
 
-.divider {
-    margin-bottom: 1.5em;
-    text-align: center;
-
-}
-
-
 #buttonContainer {
     width: 100%;
     text-align: center;
+    margin-top: 1em;
 }
 
 button {
-    background-color: hsl(150, 100%, 66%);
-    border-radius: 50%;
+    background-color: #7ca982;
+    border-radius: 10%;
     border: none;
-    width: 50px;
-    height: 50px;
-    transform: translateY(-2em);
+    font-size: 25px;
+    padding: .25em;
 }
 
 button:hover {
-    box-shadow: 0px 0px 55px 15px rgba(82, 255, 168, 30%);
-}
-
-
-#dice {
-    margin: auto;
-}
-
-
-@media screen and (min-width: 607px) {
-    #mobileDivider {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 608px) {
-    #desktopDivider {
-        display: none;
-    }
+    box-shadow: 0px 0px 55px 15px rgba(82, 255, 168, 20%);
 }
