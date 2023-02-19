@@ -55,6 +55,8 @@ The button position gave me some trouble, but when I took it out of the same con
 
 I'd like to make more generators like this.  i would also like to add the functionality that lets me go back, save advice, and even look up by particular advice id. 
 
+I've created some special styles with Yoda today.  I want to make a few other profiles that users can switch between that updates the styles and colors. 
+
 ## Author
 
 - Website - [Sarah Beth Locklar | FE Web Dev](https://www.sarahbethlocklar.com)
