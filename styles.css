@@ -9,13 +9,17 @@ body {
     width: 100%;
 }
 
+header {
+    text-align: center;
+    margin-top: 5em;
+}
+
 .adviceCard {
     background-color: #243e36;
-    max-width: 1000px;
+    max-width: 30em;
     color: #C08552;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5%;
+    margin: auto;
+    margin-top: 2em;
     border-radius: 10px;
     padding-bottom: 5%;
     display: flex;

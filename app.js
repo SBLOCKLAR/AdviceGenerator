@@ -1,12 +1,12 @@
 
 
-const button = document.querySelector('#generateAdvice');
+const teachMe = document.querySelector('#generateAdvice');
 const adviceText = document.querySelector('#adviceText');
 const adviceNumber = document.querySelector('#adviceNumber');
 
 document.addEventListener('DOMContentLoaded', getAdvice);
 
-button.addEventListener('click', getAdvice);
+teachMe.addEventListener('click', getAdvice);
 
 async function getAdvice() {
     const adviceData = await fetch('https://api.adviceslip.com/advice', {
@@ -18,3 +18,7 @@ async function getAdvice() {
     adviceText.innerHTML = adviceObject.slip.advice;
     adviceNumber.innerHTML = adviceObject.slip.id;
 }
+
+
+// I want to update the html stylesheet based on teacher
+// figure out default page
