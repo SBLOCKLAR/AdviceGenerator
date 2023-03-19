@@ -1,0 +1,70 @@
+* {
+    font-family: 'Philosopher', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000814;
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.adviceCard {
+    background-color: #003566;
+    max-width: 30em;
+    color: #FFC300;
+    margin: auto;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+h1 {
+    color: #E0EEC6;
+    font-size: 12px;
+    letter-spacing: .5em;
+    max-width: 100%;
+}
+
+p {
+    padding: 5%;
+    max-width: 100%;
+    text-align: center;
+}
+
+p,
+#adviceText {
+    font-size: 28px;
+}
+
+#buttonContainer {
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+}
+
+button {
+    background-color: #FFC300;
+    border-radius: 10%;
+    border: none;
+    font-size: 25px;
+    padding: .25em;
+}
+
+button:hover {
+    box-shadow: 0px 0px 5px 10px rgba(255, 214, 10, 20%);
+}

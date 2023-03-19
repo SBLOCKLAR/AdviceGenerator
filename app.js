@@ -22,3 +22,22 @@ async function getAdvice() {
 
 // I want to update the html stylesheet based on teacher
 // figure out default page
+const selectButton = document.querySelector('#selectTeacher');
+
+
+
+
+selectButton.addEventListener('click', function () {
+    const teacherSelection = document.querySelector('select').value;
+    const teacherImg = document.querySelector('.photo');
+    const stylesheet = document.querySelector('#stylesheet');
+    if (teacherSelection === 'oprah') {
+        teacherImg.setAttribute('src', 'assets/oprah.jpg');
+        stylesheet.setAttribute('href', 'oprah.css');
+    } else if (teacherSelection === 'miyagi') {
+        teacherImg.setAttribute('src', 'assets/miyagi.jpeg')
+    } else {
+        teacherImg.setAttribute('src', 'assets/yoda.jpg');
+        stylesheet.setAttribute('href', 'yoda.css');
+    }
+});
