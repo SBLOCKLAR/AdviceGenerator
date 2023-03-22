@@ -1,9 +1,9 @@
 :root {
-    --background-color: #839fc8;
-    --button-bg: whitesmoke;
-    --advice-text-color: whitesmoke;
-    --card-bg: #003566;
-    --buton-hover-shadow: rgb(245, 245, 245, 20%);
+    --background-color: #366447;
+    --button-bg: #A6332E;
+    --advice-text-color: black;
+    --card-bg: #EFBC2F;
+    --buton-hover-shadow: rgb(255, 255, 255, 20%);
 }
 
 * {

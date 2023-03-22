@@ -25,8 +25,6 @@ async function getAdvice() {
 const selectButton = document.querySelector('#selectTeacher');
 
 
-
-
 selectButton.addEventListener('click', function () {
     const teacherSelection = document.querySelector('select').value;
     const teacherImg = document.querySelector('.photo');
@@ -35,7 +33,14 @@ selectButton.addEventListener('click', function () {
         teacherImg.setAttribute('src', 'assets/oprah.jpg');
         stylesheet.setAttribute('href', 'oprah.css');
     } else if (teacherSelection === 'miyagi') {
-        teacherImg.setAttribute('src', 'assets/miyagi.jpeg')
+        teacherImg.setAttribute('src', 'assets/miyagi.jpeg');
+        stylesheet.setAttribute('href', 'miyagi.css');
+    } else if (teacherSelection === 'peanuts') {
+        teacherImg.setAttribute('src', 'assets/peanuts.jpeg');
+        stylesheet.setAttribute('href', 'peanuts.css');
+    } else if (teacherSelection === 'dumbledore') {
+        teacherImg.setAttribute('src', 'assets/dumbledore.jpeg');
+        stylesheet.setAttribute('href', 'dumbledore.css');
     } else {
         teacherImg.setAttribute('src', 'assets/yoda.jpg');
         stylesheet.setAttribute('href', 'yoda.css');

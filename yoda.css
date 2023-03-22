@@ -1,3 +1,11 @@
+:root {
+    --background-color: #e0eec6;
+    --button-bg: #7ca982;
+    --advice-text-color: #C08552;
+    --card-bg: #243e36;
+    --buton-hover-shadow: rgba(82, 255, 168, 20%);
+}
+
 * {
     font-family: 'Philosopher', sans-serif;
     margin: 0;
@@ -5,7 +13,7 @@
 }
 
 body {
-    background-color: #e0eec6;
+    background-color: var(--background-color);
     width: 100%;
 }
 
@@ -15,9 +23,9 @@ header {
 }
 
 .adviceCard {
-    background-color: #243e36;
+    background-color: var(--card-bg);
     max-width: 30em;
-    color: #C08552;
+    color: var(--advice-text-color);
     margin: auto;
     margin-top: 2em;
     border-radius: 10px;
@@ -58,7 +66,7 @@ p,
 }
 
 button {
-    background-color: #7ca982;
+    background-color: var(--button-bg);
     border-radius: 10%;
     border: none;
     font-size: 25px;
@@ -66,5 +74,5 @@ button {
 }
 
 button:hover {
-    box-shadow: 0px 0px 55px 15px rgba(82, 255, 168, 20%);
+    box-shadow: 0px 0px 55px 15px var(--buton-hover-shadow);
 }
